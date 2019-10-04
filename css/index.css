@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+
 }
 
 .top-content {
@@ -104,12 +105,12 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .bottom-content {
@@ -129,6 +130,7 @@ p {
 footer {
     width: 100%;
     background: black;
+  
 }
 
 footer nav {
@@ -144,3 +146,86 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.nav_menu{
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 0 20px;
+}
+
+.nav_menu a{
+    text-decoration: none;
+    color:black;
+    margin:auto auto;
+}
+
+.top-content{
+    margin:20px 0 0;
+    border-bottom: 1px dash black;
+}
+
+.middle-content h2{
+    margin:20px 0 0;
+}
+
+.box:nth-child(1n){
+    background:teal;
+}
+.box:nth-child(2n){
+    background: gold;
+}
+
+.box:nth-child(3n){
+    background: cadetblue;
+}
+
+.box:nth-child(4n){
+    background: coral;
+}
+
+.box:nth-child(5n){
+    background: crimson;
+}
+
+.box:nth-child(6n){
+    background: forestgreen;
+}
+
+.box:nth-child(7n){
+    background: darkorchid;
+}
+
+.box:nth-child(8n){
+    background: hotpink;
+}
+
+.box:nth-child(9n){
+    background: indigo;
+}
+
+.box:nth-child(10n){
+    background: dodgerblue;
+}
+
+.header{
+    align-items: center;
+}
+.about_section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+.button{
+    background-color:white;
+    padding:8px;
+    width:175px;
+    border:1px solid black;
+    text-align: center;
+    margin:15px 0px;
+    border-radius:10px;
+}
+
+
+

@@ -1,0 +1,16 @@
+.about_section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.button{
+    background-color:white;
+    padding:8px;
+    width:175px;
+    border:1px solid black;
+    text-align: center;
+    margin:15px 0px;
+    border-radius:10px;
+}
+
