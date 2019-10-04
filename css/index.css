@@ -206,3 +206,27 @@ footer nav a {
 .box:nth-child(10n){
     background: dodgerblue;
 }
+
+.header{
+    align-items: center;
+}
+
+.about_section{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin:20px 0;
+   
+}
+
+.button{
+    background-color:white;
+    padding:8px;
+    width:175px;
+    border:1px solid black;
+    text-align: center;
+    margin:15px 0px;
+    border-radius:10px;
+}
+
+
